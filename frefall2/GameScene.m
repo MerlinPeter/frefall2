@@ -56,9 +56,13 @@ static const uint32_t category_ball   = 0x1 << 0;
 - (void)didBeginContact:(SKPhysicsContact *)contact {
     NSString *nameA = contact.bodyA.node.name;
     NSString *nameB = contact.bodyB.node.name;
+    SKAction *actionAudioExplode = [SKAction playSoundFileNamed:@"Explosion.wav" waitForCompletion:NO];
+
     
     if (([nameA containsString:@"Fence"] && [nameB containsString:@"fireball"])) {
         NSLog(@"\nWhat collided? %@ %@", nameA, nameB);
+        SKAction *actionExplodeSequence = [SKAction sequence:@[actionAudioExplode]];
+        [contact.bodyB.node runAction:actionExplodeSequence];
 
     }
 }

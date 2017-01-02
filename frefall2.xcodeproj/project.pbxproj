@@ -17,6 +17,7 @@
 		D00D03AC1E1AD2E800E7B9BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00D03AA1E1AD2E800E7B9BD /* LaunchScreen.storyboard */; };
 		D00D03B41E1AD47200E7B9BD /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = D00D03B31E1AD47200E7B9BD /* fireball.png */; };
 		D00D03B61E1AD54A00E7B9BD /* potw1650a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D00D03B51E1AD54A00E7B9BD /* potw1650a.jpg */; };
+		D00D03B81E1AD93A00E7B9BD /* Explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = D00D03B71E1AD93A00E7B9BD /* Explosion.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		D00D03AD1E1AD2E800E7B9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D00D03B31E1AD47200E7B9BD /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
 		D00D03B51E1AD54A00E7B9BD /* potw1650a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potw1650a.jpg; sourceTree = "<group>"; };
+		D00D03B71E1AD93A00E7B9BD /* Explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Explosion.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				D00D039B1E1AD2E800E7B9BD /* AppDelegate.m */,
 				D00D039D1E1AD2E800E7B9BD /* GameScene.h */,
 				D00D039E1E1AD2E800E7B9BD /* GameScene.m */,
+				D00D03B71E1AD93A00E7B9BD /* Explosion.wav */,
 				D00D03A01E1AD2E800E7B9BD /* GameScene.sks */,
 				D00D03A21E1AD2E800E7B9BD /* GameViewController.h */,
 				D00D03A31E1AD2E800E7B9BD /* GameViewController.m */,
@@ -152,6 +155,7 @@
 			files = (
 				D00D03A11E1AD2E800E7B9BD /* GameScene.sks in Resources */,
 				D00D03AC1E1AD2E800E7B9BD /* LaunchScreen.storyboard in Resources */,
+				D00D03B81E1AD93A00E7B9BD /* Explosion.wav in Resources */,
 				D00D03B41E1AD47200E7B9BD /* fireball.png in Resources */,
 				D00D03B61E1AD54A00E7B9BD /* potw1650a.jpg in Resources */,
 				D00D03A91E1AD2E800E7B9BD /* Assets.xcassets in Resources */,
