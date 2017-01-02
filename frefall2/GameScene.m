@@ -8,7 +8,9 @@
 
 #import "GameScene.h"
 
+static const uint32_t category_fence  = 0x1 << 3;
 
+static const uint32_t category_ball   = 0x1 << 0;
 @implementation GameScene
 
 -(void)didMoveToView:(SKView *)view {
@@ -18,6 +20,8 @@
     /* Setup your scene here */
     self.name = @"Fence";
     self.physicsBody = [SKPhysicsBody bodyWithEdgeLoopFromRect:self.frame];
+    self.physicsBody.categoryBitMask=category_fence;
+    self.physicsBody.contactTestBitMask=category_ball;
     
     SKSpriteNode *fireball = [SKSpriteNode spriteNodeWithImageNamed:@"fireball.png"];
     fireball.name = @"fireball";
@@ -35,6 +39,8 @@
     //fireball.physicsBody.velocity = CGVectorMake(150, 300.0);
     fireball.physicsBody.affectedByGravity = YES;
     fireball.physicsBody.usesPreciseCollisionDetection = YES;
+    fireball.physicsBody.categoryBitMask=category_ball;
+    fireball.physicsBody.contactTestBitMask=category_fence;
     [self addChild:fireball];
 }
 
@@ -47,4 +53,13 @@
     /* Called before each frame is rendered */
 }
 
+- (void)didBeginContact:(SKPhysicsContact *)contact {
+    NSString *nameA = contact.bodyA.node.name;
+    NSString *nameB = contact.bodyB.node.name;
+    
+    if (([nameA containsString:@"Fence"] && [nameB containsString:@"fireball"])) {
+        NSLog(@"\nWhat collided? %@ %@", nameA, nameB);
+
+    }
+}
 @end
