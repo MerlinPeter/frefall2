@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D00D03991E1AD2E700E7B9BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D03981E1AD2E700E7B9BD /* main.m */; };
+		D00D039C1E1AD2E800E7B9BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D039B1E1AD2E800E7B9BD /* AppDelegate.m */; };
+		D00D039F1E1AD2E800E7B9BD /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D039E1E1AD2E800E7B9BD /* GameScene.m */; };
+		D00D03A11E1AD2E800E7B9BD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D00D03A01E1AD2E800E7B9BD /* GameScene.sks */; };
+		D00D03A41E1AD2E800E7B9BD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00D03A31E1AD2E800E7B9BD /* GameViewController.m */; };
+		D00D03A71E1AD2E800E7B9BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00D03A51E1AD2E800E7B9BD /* Main.storyboard */; };
+		D00D03A91E1AD2E800E7B9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00D03A81E1AD2E800E7B9BD /* Assets.xcassets */; };
+		D00D03AC1E1AD2E800E7B9BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00D03AA1E1AD2E800E7B9BD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D00D03941E1AD2E700E7B9BD /* frefall2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = frefall2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00D03981E1AD2E700E7B9BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D00D039A1E1AD2E800E7B9BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D00D039B1E1AD2E800E7B9BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D00D039D1E1AD2E800E7B9BD /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		D00D039E1E1AD2E800E7B9BD /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		D00D03A01E1AD2E800E7B9BD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D00D03A21E1AD2E800E7B9BD /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		D00D03A31E1AD2E800E7B9BD /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		D00D03A61E1AD2E800E7B9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D00D03A81E1AD2E800E7B9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D00D03AB1E1AD2E800E7B9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D00D03AD1E1AD2E800E7B9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00D03911E1AD2E700E7B9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00D038B1E1AD2E700E7B9BD = {
+			isa = PBXGroup;
+			children = (
+				D00D03961E1AD2E700E7B9BD /* frefall2 */,
+				D00D03951E1AD2E700E7B9BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00D03951E1AD2E700E7B9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00D03941E1AD2E700E7B9BD /* frefall2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00D03961E1AD2E700E7B9BD /* frefall2 */ = {
+			isa = PBXGroup;
+			children = (
+				D00D039A1E1AD2E800E7B9BD /* AppDelegate.h */,
+				D00D039B1E1AD2E800E7B9BD /* AppDelegate.m */,
+				D00D039D1E1AD2E800E7B9BD /* GameScene.h */,
+				D00D039E1E1AD2E800E7B9BD /* GameScene.m */,
+				D00D03A01E1AD2E800E7B9BD /* GameScene.sks */,
+				D00D03A21E1AD2E800E7B9BD /* GameViewController.h */,
+				D00D03A31E1AD2E800E7B9BD /* GameViewController.m */,
+				D00D03A51E1AD2E800E7B9BD /* Main.storyboard */,
+				D00D03A81E1AD2E800E7B9BD /* Assets.xcassets */,
+				D00D03AA1E1AD2E800E7B9BD /* LaunchScreen.storyboard */,
+				D00D03AD1E1AD2E800E7B9BD /* Info.plist */,
+				D00D03971E1AD2E700E7B9BD /* Supporting Files */,
+			);
+			path = frefall2;
+			sourceTree = "<group>";
+		};
+		D00D03971E1AD2E700E7B9BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D00D03981E1AD2E700E7B9BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00D03931E1AD2E700E7B9BD /* frefall2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00D03B01E1AD2E800E7B9BD /* Build configuration list for PBXNativeTarget "frefall2" */;
+			buildPhases = (
+				D00D03901E1AD2E700E7B9BD /* Sources */,
+				D00D03911E1AD2E700E7B9BD /* Frameworks */,
+				D00D03921E1AD2E700E7B9BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = frefall2;
+			productName = frefall2;
+			productReference = D00D03941E1AD2E700E7B9BD /* frefall2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00D038C1E1AD2E700E7B9BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = peter;
+				TargetAttributes = {
+					D00D03931E1AD2E700E7B9BD = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = D00D038F1E1AD2E700E7B9BD /* Build configuration list for PBXProject "frefall2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00D038B1E1AD2E700E7B9BD;
+			productRefGroup = D00D03951E1AD2E700E7B9BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00D03931E1AD2E700E7B9BD /* frefall2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00D03921E1AD2E700E7B9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00D03A11E1AD2E800E7B9BD /* GameScene.sks in Resources */,
+				D00D03AC1E1AD2E800E7B9BD /* LaunchScreen.storyboard in Resources */,
+				D00D03A91E1AD2E800E7B9BD /* Assets.xcassets in Resources */,
+				D00D03A71E1AD2E800E7B9BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00D03901E1AD2E700E7B9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00D03A41E1AD2E800E7B9BD /* GameViewController.m in Sources */,
+				D00D039C1E1AD2E800E7B9BD /* AppDelegate.m in Sources */,
+				D00D039F1E1AD2E800E7B9BD /* GameScene.m in Sources */,
+				D00D03991E1AD2E700E7B9BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D00D03A51E1AD2E800E7B9BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00D03A61E1AD2E800E7B9BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D00D03AA1E1AD2E800E7B9BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00D03AB1E1AD2E800E7B9BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00D03AE1E1AD2E800E7B9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D00D03AF1E1AD2E800E7B9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D00D03B11E1AD2E800E7B9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = frefall2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.frefall2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D00D03B21E1AD2E800E7B9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = frefall2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.peter.frefall2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00D038F1E1AD2E700E7B9BD /* Build configuration list for PBXProject "frefall2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00D03AE1E1AD2E800E7B9BD /* Debug */,
+				D00D03AF1E1AD2E800E7B9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00D03B01E1AD2E800E7B9BD /* Build configuration list for PBXNativeTarget "frefall2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00D03B11E1AD2E800E7B9BD /* Debug */,
+				D00D03B21E1AD2E800E7B9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00D038C1E1AD2E700E7B9BD /* Project object */;
+}
