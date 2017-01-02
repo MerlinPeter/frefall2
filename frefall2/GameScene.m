@@ -57,12 +57,22 @@ static const uint32_t category_ball   = 0x1 << 0;
     NSString *nameA = contact.bodyA.node.name;
     NSString *nameB = contact.bodyB.node.name;
     SKAction *actionAudioExplode = [SKAction playSoundFileNamed:@"Explosion.wav" waitForCompletion:NO];
-
+    NSString *particleExplosionPath = [[NSBundle mainBundle] pathForResource:@"SpriteExp" ofType:@"sks"];
+    SKEmitterNode *particleExplosion = [NSKeyedUnarchiver unarchiveObjectWithFile:particleExplosionPath];
+    particleExplosion.position = CGPointMake(0, 0);
+    particleExplosion.zPosition = 1;
+    //particleExplosion.targetNode = self;
+    
+   
     
     if (([nameA containsString:@"Fence"] && [nameB containsString:@"fireball"])) {
         NSLog(@"\nWhat collided? %@ %@", nameA, nameB);
+        SKAction *actionParticleExplosion = [SKAction runBlock:^{
+            [contact.bodyB.node addChild:particleExplosion];
+        }];
         SKAction *actionExplodeSequence = [SKAction sequence:@[actionAudioExplode]];
         [contact.bodyB.node runAction:actionExplodeSequence];
+        [contact.bodyB.node addChild:particleExplosion];
 
     }
 }
